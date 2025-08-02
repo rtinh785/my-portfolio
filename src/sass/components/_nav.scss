@@ -1,0 +1,18 @@
+.nav {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  &__link {
+    font-size: 1.26rem;
+    color: var(--color-title);
+    font-weight: var(--font-weight-bold);
+    transition: all 0.3s ease-in-out;
+    s :hover {
+      filter: brightness(0) saturate(100%) invert(78%) sepia(19%)
+        saturate(1375%) hue-rotate(340deg) brightness(113%) contrast(102%);
+    }
+  }
+}
