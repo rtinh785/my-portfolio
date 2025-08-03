@@ -1,0 +1,46 @@
+.about {
+  .skill {
+    &__titles {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+
+    &__name {
+      font-size: var(--font-size-normal);
+      font-weight: 500;
+    }
+
+    &__number {
+      line-height: 1.2;
+    }
+
+    &__bar,
+    &__percentage {
+      height: 7px;
+      border-radius: 0.25rem;
+    }
+
+    &__bar {
+      background-color: #f1f1f1;
+    }
+
+    &__percentage {
+      display: block;
+    }
+  }
+  .development {
+    width: 90%;
+    background-color: rgb(255, 209, 92);
+  }
+
+  .uiux {
+    width: 80%;
+    background-color: rgb(255, 76, 96);
+  }
+
+  .seo {
+    width: 60%;
+    background-color: rgb(108, 108, 255);
+  }
+}
