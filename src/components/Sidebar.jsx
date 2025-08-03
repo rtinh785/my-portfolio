@@ -25,12 +25,12 @@ const Sidebar = () => {
               </a>
             </li>
             <li>
-              <a className="nav__link" href="#serice">
+              <a className="nav__link" href="#services">
                 <i className="icon-briefcase"></i>
               </a>
             </li>
             <li>
-              <a className="nav__link" href="#remuse">
+              <a className="nav__link" href="#resume">
                 <i className="icon-graduation"></i>
               </a>
             </li>
