@@ -5,7 +5,7 @@ const Sidebar = () => {
     <aside
       style={{ backgroundColor: "var(--color-body)" }}
       className="fixed left-0 top-0  border-r border-[rgba(0,0,0,0.05)] p-[2.5rem] w-[110px] min-h-[100vh]
-       flex flex-col justify-between z-{10}"
+       flex flex-col justify-between z-[10]"
     >
       <a href="#home">
         <img src={Logo} alt="Logo" />

@@ -50,6 +50,9 @@
 }
 /* Base styles */
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     font-family: var(--font-family-rubik);
     font-size: var(--normal-font-size);
@@ -112,7 +115,7 @@
   }
 
   .section {
-    padding-top: 7rem;
+    padding-top: 5.1rem;
     padding-bottom: 2rem;
   }
 
@@ -185,20 +188,23 @@
       hue-rotate(340deg) brightness(113%) contrast(102%);
   }
 
-  .swiper-pagination-bullet{
+  .swiper-pagination-bullet {
     width: 0.5rem !important;
     height: 0.5rem !important;
-    background-color: var(--color-primary) !important;
+    background-color: hsl(353, 87%, 82%) !important;
     opacity: 1 !important;
   }
 
-  .swiper-pagination-horizontal .swiper-pagination-bullets .swiper-pagination-bullet{
+  .swiper-pagination-horizontal
+    .swiper-pagination-bullets
+    .swiper-pagination-bullet {
     margin: 0 0.2rem !important;
   }
   .swiper-pagination-bullet-active {
     width: 1.2rem !important;
     height: 0.3785rem !important;
     border-radius: 0.5rem !important;
+    background-color: var(--color-primary) !important;
   }
 }
 
