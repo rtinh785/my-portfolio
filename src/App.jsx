@@ -7,7 +7,7 @@ import Pricing from "./components/Pricing";
 import Resume from "./components/resume/Resume";
 import Services from "./components/Services";
 import Sidebar from "./components/Sidebar";
-import Testimonials from "./components/Testimonials";
+import Testimonials from "./components/testimonials/Testimonials";
 
 function App() {
   return (
@@ -19,9 +19,7 @@ function App() {
         <Services />
         <Resume />
         <Portfolio />
-        <Pricing />
         <Testimonials />
-        <Blog />
         <Contact />
       </main>
     </>

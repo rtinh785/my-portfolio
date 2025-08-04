@@ -184,10 +184,27 @@
     filter: brightness(0) saturate(100%) invert(78%) sepia(19%) saturate(1375%)
       hue-rotate(340deg) brightness(113%) contrast(102%);
   }
+
+  .swiper-pagination-bullet{
+    width: 0.5rem !important;
+    height: 0.5rem !important;
+    background-color: var(--color-primary) !important;
+    opacity: 1 !important;
+  }
+
+  .swiper-pagination-horizontal .swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 0.2rem !important;
+  }
+  .swiper-pagination-bullet-active {
+    width: 1.2rem !important;
+    height: 0.3785rem !important;
+    border-radius: 0.5rem !important;
+  }
 }
 
 @layer utilities {
-  .about__data::before {
+  .about__data::before,
+  .comment::before {
     position: absolute;
     left: -0.9rem;
     top: 20%;
@@ -197,6 +214,15 @@
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     border-right: 15px solid var(--color-container);
+  }
+
+  .comment::before {
+    left: 49.5%;
+    top: -1.2rem;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid var(--color-container);
+    transform: translateX(-7.5px);
   }
 
   .section__title::before {

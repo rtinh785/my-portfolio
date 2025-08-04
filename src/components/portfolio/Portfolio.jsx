@@ -16,7 +16,7 @@ const Portfolio = () => {
   };
 
   return (
-    <section className="work container section" id="work">
+    <section className="work container section" id="portfolio">
       <h2 className="section__title">Recent Works</h2>
 
       <div className="flex items-center gap-x-[1.875rem] mb-[2.5rem]">

@@ -39,11 +39,7 @@ const Sidebar = () => {
                 <i className="icon-layers"></i>
               </a>
             </li>
-            <li>
-              <a className="nav__link" href="#pricing">
-                <i className="icon-note"></i>
-              </a>
-            </li>
+
             <li>
               <a className="nav__link" href="#testimonials">
                 <i className="icon-bubble"></i>
