@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className="about container section" id="about">
       <h2 className="section__title mb-[4.25rem]">About me</h2>
-      <div className="grid grid-cols-[3fr_9fr] gap-x-[1.875rem] w-max-[]">
+      <div className="grid grid-cols-[3fr_9fr] gap-x-[1.875rem] ">
         <img src={AboutImg} alt="About" />
         <div className="relative grid p-[1.875rem] bg-[var(--color-container)] shadow-[var(--shadow-main)] rounded-[var(--radius-main)] grid-cols-2 gap-x-[1.875rem] about__data">
           {/* info */}

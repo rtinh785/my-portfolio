@@ -2,7 +2,7 @@ import About from "./components/aboutt/About";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Home from "./components/home/Home";
-import Portfolio from "./components/Portfolio";
+import Portfolio from "./components/portfolio/Portfolio";
 import Pricing from "./components/Pricing";
 import Resume from "./components/resume/Resume";
 import Services from "./components/Services";
