@@ -210,6 +210,17 @@
 }
 
 @layer utilities {
+  .logo::before {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: var(--color-primary);
+    position: absolute;
+    bottom: 30.5%;
+    right: -7%;
+  }
+
   .about__data::before,
   .comment::before {
     position: absolute;

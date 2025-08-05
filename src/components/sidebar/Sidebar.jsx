@@ -14,7 +14,12 @@ const Sidebar = () => {
           ${toggle ? "left-0" : "left-[-110px]"} lg:left-0`}
       >
         <a href="#home">
-          <img src={Logo} alt="Logo" />
+          <p
+            style={{ color: "var(--color-title)" }}
+            className="logo relative text-center text-[2.5rem] font-extrabold"
+          >
+            T
+          </p>
         </a>
 
         <nav className="nav">
