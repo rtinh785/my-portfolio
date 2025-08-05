@@ -2,7 +2,7 @@ import React from "react";
 
 const Box = ({ icon, title, subTitle }) => {
   return (
-    <div className=" box ">
+    <div className=" box  ">
       <i className={`box__icon ${icon}`}></i>
 
       <div>

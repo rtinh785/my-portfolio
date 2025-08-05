@@ -6,7 +6,7 @@ const Contact = () => {
     <section className="container section pb-[6.25rem]" id="contact">
       <h2 className="section__title">Get In Touch</h2>
 
-      <div className="grid grid-cols-[4fr_8fr] gap-x-[1.875rem]">
+      <div className="grid md:grid-cols-1 gap-x-[1.875rem] gap-y-[1.875rem]">
         <div className="contact__info">
           <h3 className="text-[var(--font-size-h3)] mb-[0.5rem]">
             Let's talk about everything!

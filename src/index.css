@@ -40,7 +40,7 @@
 
 @media screen and (max-width: 1024px) {
   :root {
-    --font-size-h1: 1.75rem;
+    --font-size-h1: 1.55rem;
     --font-size-h2: 1.25rem;
     --font-size-h3: 1rem;
     --font-size-normal: 0.983rem;
@@ -48,10 +48,11 @@
     --font-size-smaller: 0.75rem;
   }
 }
+
 /* Base styles */
 @layer base {
   html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
   }
   body {
     font-family: var(--font-family-rubik);
@@ -220,6 +221,16 @@
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     border-right: 15px solid var(--color-container);
+  }
+
+  @media screen and (max-width: 1024px) {
+    .about__data::before {
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid #fff;
+      left: 49%;
+      top: -8.5%;
+    }
   }
 
   .comment::before {

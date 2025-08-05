@@ -9,40 +9,40 @@ const Menu = [
   {
     id: 1,
     image: Work1,
-    title: "Project Management Illustration",
+    title: "Updating...",
     category: "Design",
   },
   {
     id: 2,
     image: Work2,
-    title: "Guest App Walkthrough Screens",
+    title: "Updating...",
     category: "Art",
   },
   {
     id: 3,
     image: Work3,
-    title: "Delivery App Wireframe",
+    title: "Updating...",
     category: "Branding",
   },
-  ,
+  
   {
     id: 4,
     image: Work4,
-    title: "Onboarding Motivation",
+    title: "Updating...",
     category: "Design",
   },
-  ,
+  
   {
     id: 5,
     image: Work5,
-    title: "iMac Mockup Design",
+    title: "Updating...",
     category: "Creative",
   },
-  ,
+  
   {
     id: 6,
     image: Work6,
-    title: "Game Store App Concept",
+    title: "Updating...",
     category: "Art",
   },
 ];

@@ -19,7 +19,7 @@ const Portfolio = () => {
     <section className="work container section " id="portfolio">
       <h2 className="section__title mb-[2rem]">Recent Works</h2>
 
-      <div className="flex items-center gap-x-[1.875rem] mb-[2.5rem]">
+      <div className="flex flex-wrap items-center gap-x-[1rem] md:gap-x-[1.875rem] mb-[2.5rem]">
         <WorkItem onClick={filterItem}>Everything</WorkItem>
         <WorkItem onClick={filterItem}>Creative</WorkItem>
         <WorkItem onClick={filterItem}>Art</WorkItem>
@@ -27,7 +27,7 @@ const Portfolio = () => {
         <WorkItem onClick={filterItem}>Branding</WorkItem>
       </div>
 
-      <div className=" grid grid-cols-3 gap-[1.875rem]">
+      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[1.875rem]">
         {items.map((el) => {
           const { id, image, title, category } = el;
           return (
@@ -36,7 +36,7 @@ const Portfolio = () => {
               key={id}
             >
               <div>
-                <img src={image} alt="work" />
+                <img src={image} alt="work" className="w-full"/>
                 <div className="bg-[#6c6ce5] absolute left-0 top-0 h-full w-full duration-[0.3s] opacity-0 group-hover:opacity-[0.9]"></div>
               </div>
 

@@ -6,7 +6,7 @@ const Resume = () => {
       <h2 className="section__title">Experience</h2>
 
       {/* container */}
-      <div className="grid grid-cols-2 gap-x-[1.875rem]">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-[1.875rem] gap-y-[1.875rem]">
         <div className=" grid bg-[var(--color-container)] p-[1.875rem] rounded-[var(--radius-main)] relative shadow-[var(--shadow-main)]">
           {Data.map((item, id) => {
             if (item.category === "education") {

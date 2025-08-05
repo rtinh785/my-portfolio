@@ -19,7 +19,7 @@ const Data = [
       "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍",
   },
   {
-    id: 2,
+    id: 3,
     image: Image3,
     title: "Reyna Doe",
     subtitle: "Product designer at Dribble",
