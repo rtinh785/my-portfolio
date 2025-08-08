@@ -9,6 +9,7 @@ import Project from "./components/project/Project";
 import Testimonials from "./components/testimonials/Testimonials";
 
 function App() {
+
   return (
     <>
       <Sidebar />

@@ -16,7 +16,7 @@ const Home = () => {
         </h1>
         <span>I'm a Front-End developer!</span>
         <br />
-        <span>Email: rtinh785@gmail.com || SĐT:0379051788</span>
+        <span>Email: rtinh785@gmail.com <br /> SĐT:0379051788</span>
         <HeaderSocials />
         <a href="#contact" className="btn">
           Hire me

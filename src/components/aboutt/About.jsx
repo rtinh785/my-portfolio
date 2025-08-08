@@ -20,7 +20,7 @@ const About = () => {
             </a>
           </div>
 
-          <div className="skill grid gap-x-[1.25rem]">
+          <div className="skill grid gap-x-[1.25rem] gap-y-[1.25rem] md:gap-y-[1rem]">
             <Kill
               name={"Development"}
               number={"90%"}
